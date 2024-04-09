@@ -1,0 +1,503 @@
+    
+    body{ background-color:azuress;}
+    h1{text-align:center;
+        size: 50px;
+        color:black;
+        
+        }
+    h3{ text-align:left;
+        color: rgb(0, 0, 0);}
+    #a{ 
+        width: 100%;
+        height: auto;
+    }
+
+    
+    pre{ color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 15px ;
+        font-family:sans-serif;
+    }
+    h2{text-align:center;
+        size: 40px;
+        color: rgb(0, 0, 0);
+        
+    }
+    #p{text-align: left;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family:sans-serif;   
+    }
+    .o{float: right;
+        max-width: 35%;
+        max-height:15%;   
+    }
+    #container {border: 5px solid rgb(235, 233, 233);
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        border-radius: 10px;
+        margin:  auto;
+        height: 600px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: rgb(235, 233, 233);
+        border-radius: 50px;
+        box-shadow: 10px 20px 10px rgb(195, 194, 194);
+        
+        
+        
+
+        
+    }
+    #d{text-align: justify;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family:sans-serif;
+          
+    }
+    .r{max-width: 35%;
+        max-height:15%;
+        float: left;   
+    }
+    #kl{color: rgb(0, 0, 0);
+       
+        font-weight: bold;
+        padding: 20px;
+
+    
+        
+        
+    }
+    .bottom{
+        width:  100%;
+        height: auto;
+    }
+    #b{
+        padding: 20px;
+        width:400px;
+        text-align:center;
+        border-radius: 0.1px;
+        margin-left: 0.1px;
+        margin-right: 10px;
+        color:rgb(0, 0, 0);
+        font-family: sans-serif;
+    }
+    
+    #v{background-image: url(./pictures/Wildlife-of-Sri-Lanka.jpg);}
+    p{color: rgb(0, 0, 0);
+    font-family: sans-serif;}
+
+    #img{ display: block;
+        padding-left: 100px;
+       
+        width: 600px;}
+    
+        
+    #img2{
+        width: 100%;
+        transition: 1s ease;
+        
+    }
+    #container:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s ease;
+    }
+    #container4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between  ;
+        align-items: center;
+        align-content: center;
+        padding-left: 250px ;
+        padding-right: 250px;
+        
+       }
+
+    #container1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between 20px  ;
+        align-items: center;
+        align-content: center;
+        padding-bottom: 20px;
+        gap: 60px;
+
+        
+    }
+    #container3{border: 5px solid rgb(245, 237, 225);
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        border-radius: 10px;
+        margin:  auto;
+        height: 400px;
+        background-color: rgb(245, 237, 225);
+        box-shadow: 10px 20px 10px rgb(230, 227, 220) ;
+    }
+
+    #container3:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s ease; 
+    }
+
+    #container3 img{ 
+        width: 60%;
+    }
+    .grid-container {
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 10px;
+            
+            padding: 10px;
+          }
+          nav {
+            position: relative;
+            z-index: 100;
+            text-align: center; 
+        }
+        
+        .nav-container {
+            display: inline-block; 
+        }
+          nav ul {
+            background-color: rgb(0, 0, 0);
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: visible;
+        
+            margin: auto;
+        }
+        nav{
+            position: sticky;
+            z-index: 100;
+            top: 0;
+            width:  100%;
+        }
+        
+        
+        nav ul li {
+            border-right: 1px solid #ffffff;
+            padding-right: 40px;
+            display: inline;
+            margin-right: 20px; 
+            margin-left: 20px;
+        }
+        
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; 
+            display: inline-block;
+            padding: 12px 12px;
+            transition: .5s;
+            
+        }
+        .active {
+            background-color:red;
+        }
+        li a:hover:not(.active) {
+            background-color: #666565cf;
+            
+          }
+
+        nav ul li button{
+            width: 130px;
+            height: 30px;
+            background: transparent;
+            border: 2px solid  #ffffff;
+            outline: none;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #ffffff;
+            transition: .5s;
+
+
+
+        }
+        nav ul li button:hover {
+            color: #ffffff;
+            background-color: #666565cf;
+        }   
+
+        a {
+            color: #000000;
+            align-items: center;
+            padding: 50px;
+            align-content: center;
+            padding-top: 50px;
+        }
+        
+             
+    footer{text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+    
+    .image-gallery li img {
+       
+        width: 150px;
+        height: 100px;
+        vertical-align: middle;
+        border-radius: 5px;
+      }
+    
+   a img{
+    width: 300px;
+   }
+
+
+
+.vi{
+    background-color:rgb(221, 227, 221);
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
+    font-family:sans-serif;
+    border: rgb(221, 227, 221);
+    width: 50%;
+    height: 250px;
+    padding-top: 20px;
+    align-content: center;
+}
+#vivi{
+    background-color:rgb(221, 227, 221);
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+    font-family:sans-serif;
+    border: rgb(221, 227, 221);
+    width: 50%;
+    height:250px;
+    padding-top: 20px;
+    
+    
+}
+#cont6{
+    display: flex;
+    flex-wrap: wrap;
+        
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+   
+        
+        
+}
+#cont3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between 20px  ;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+
+}
+#cont4{
+    border: 5px solid rgb(221, 227, 221);
+        padding: 20px;
+        width: 400px;
+        text-align:left;
+        border-radius: 10px;
+        margin:  auto;
+        height: 450px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: rgb(221, 227, 221);
+        font-family:sans-serif;
+        font-size:18px;
+        border-radius: 50px;
+        box-shadow: 10px 20px 10px rgb(212, 215, 212) ;
+}
+#img12{width: 600px;
+    padding-right: 100px;
+}
+#cont5{
+    border: 5px solid rgb(255, 253, 253);
+        padding: 20px;
+        width: 400px;
+        text-align:left;
+        border-radius: 10px;
+        margin:  auto;
+        height: 450px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: rgb(221, 227, 221);
+        font-family:sans-serif;
+        font-size:15px;
+        
+        
+}
+#cont44{
+    border: 5px solid rgb(245, 237, 225);
+        padding: 30px;
+        width: 400px;
+        text-align:left;
+        border-radius: 10px;
+        margin:  auto;
+        height: 500px;
+        
+        background-color:  rgb(245, 237, 225);
+        font-family:sans-serif;
+        font-size:18px;
+        border-radius: 50px;
+        box-shadow: 10px 20px 10px rgb(230, 227, 220) ;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.main .gallery{
+    position: relative;
+    height: 100%;
+    width: 90% ;
+    margin: auto;
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 2vh;
+    grid-auto-flow: dense;
+}
+.main .gallery .imgg4{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main .gallery .imgg4:first-child{
+    grid-column-start: span 2;
+    grid-row-start: span 2;  
+}
+.main .gallery .imgg4:nth-child(2n+2){
+    
+    grid-row-start: span 2;  
+}
+.main .gallery .imgg4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) grayscale(100);
+    transition: 0.3s ease-in-out;
+}
+.main .gallery .imgg4 :hover{
+    filter: brightness(1) grayscale(0);
+}
+#imgg7{
+    width: 350px;
+    height: 250px;
+    border-radius: 50px;
+    
+}
+ #cont8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    gap: 30px;
+    
+    
+ }
+#cont7{
+    
+        
+        width: 400px;
+        text-align: center;
+        border-radius: 10px;
+        margin:  auto;
+        height: 550px;
+        background-color: rgba(50, 38, 14, 0.442);
+        border-radius: 20px;
+        box-shadow: 10px 20px 10px rgb(195, 194, 194);
+        padding: 10px;
+}
+#map1{
+    width: 400px;
+    height: 560px;
+    border-radius: 20px;
+   
+}
+.info {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.info .table {
+    width: 90%;
+    table-layout: fixed;
+
+}
+
+.table thead {
+    background-color:rgba(50, 38, 14, 0.442);
+    border: 0;
+}
+
+.table td {
+    max-width: 25%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.table td img {
+    width: 100%;
+    height: 100%;
+}
+
+.table td:nth-of-type(1) {
+    text-align: left;
+
+
+
+}
+
+.table tr:nth-of-type(2n) {
+    background-color: rgba(0, 0, 0, 0.075);
+
+    
+}
+a{
+    color: #000000;
+    align-items: center;
+    padding: 50px;
+    align-content: center;
+    padding-top: 50px;
+
+    
+}
+#link{
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-bottom: 50px;
+}
+#link1{
+    padding-top: 50px;
+    padding-left: 600px;
+    padding-bottom: 50px;
+}
+#f{
+    padding: 50px;
+}

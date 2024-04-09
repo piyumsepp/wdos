@@ -1,0 +1,28 @@
+{
+    "introduction":{
+        "title":"SRI LANKAN WILDLIFE",
+        "description":"In the heart of Sri Lanka's lush landscapes, a symphony of vibrant wildlife unfolds. Majestic elephants gracefully navigate the dense foliage, their presence echoing the ancient tales that have woven them into the cultural fabric of the island. Colorful plumage adorns the skies as an array of exotic birds, including the resplendent peafowl and the elusive Sri Lankan junglefowl, flaunt their feathers in a mesmerizing dance. Stealthy leopards, masters of camouflage, prowl through the shadows, adding an air of mystery to the thriving ecosystem. The rhythmic calls of the endemic purple-faced langur monkeys resonate through the treetops, creating a lively soundtrack to the enchanting spectacle of Sri Lankan wildlife."
+    },
+    "mammals":{
+        "title":"Mammals",
+        "description":"Mammals are a diverse group of warm-blooded animals found all over the world, from the frozen Arctic to the hot deserts. They are characterized by several key features:",
+        "u_list":["Fur or hair: All mammals have fur or hair, which helps them to insulate their bodies and stay warm.","Mammary glands: Female mammals produce milk in mammary glands to nourish their young.","Three middle ear bones: Mammals have three tiny bones in their middle ear, which helps them to hear better than other animals."],
+        "description1":"Mammals come in all shapes and sizes, from the tiny shrew, which weighs just a few grams, to the massive blue whale, which can weigh over 200 tons. They have adapted to live in a wide variety of habitats and have evolved a wide range of behaviors, from the social lives of elephants to the solitary hunting habits of tigers."
+    },
+    "reptiles":{
+        "title":"Reptiles",
+        "description":" Reptiles are a fascinating group of animals that have been around for millions of years. They are found on every continent except Antarctica and come in a wide variety of shapes and sizes, from tiny geckos to massive crocodiles. Here are some interesting facts about reptiles:",
+        "o_list":["Skin and scales: Unlike mammals and birds, reptiles have dry, scaly skin. This helps them to conserve water and protect themselves from the elements."," Cold-blooded: Reptiles are ectothermic, which means they rely on external sources of heat to regulate their body temperature. This is why you often see them basking in the sun."],
+        "description1":"Cold-blooded: Reptiles are ectothermic, which means they rely on external sources of heat to regulate their body temperature. This is why you often see them basking in the sun."
+    },
+    "birds":{
+        "title":"Birds",
+        "description":"Birds are a diverse group of warm-blooded animals found on every continent except Antarctica, known for their ability to fly. Here are some interesting facts about birds:",
+        "o_list":["Feathers: Birds are the only animals with feathers. Feathers are lightweight and provide insulation, helping birds to fly and stay warm.","Beaks: Birds have beaks instead of teeth. Beaks come in all shapes and sizes, and they are used for a variety of purposes, such as eating, grooming, and building nests."],
+        "description1":"They help to:",
+        "u_list":["Pollinate plants: As birds fly from flower to flower, they transfer pollen, which helps plants to reproduce.","Control insect populations: Many birds eat insects, which helps to keep insect populations in check."]
+    },
+    "footer":"&copy; SRI LANKAN WILDLIFE"
+
+}
+    
